@@ -1,0 +1,87 @@
+.Architec{
+    border: 2px solid black;
+    height: 600px;
+}
+.container-1{
+    border: 2px ;
+    height: 605px;
+   
+} 
+.child-1{
+    border: 2px ;
+    height: 302px;
+    position: relative;
+}
+
+.child-2{
+    border: 2px ;
+    height: 300px;
+    position: relative;
+}
+.sub-child-1{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+.sub-child-2{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+.sub-child-3{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+.sub-child-4{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+img{
+    height: 300px;
+    width: 370px;
+    display: inline;
+}
+h3{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: -18px;
+    margin-left: 0px;
+}
+.sub-child-5{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+ .sub-child-6{
+    border: 2px solid white ;
+    height: 300px;
+    display: inline-block;
+}
+.sub-child-7{
+    border: 2px solid white;
+    height: 300px;
+    display: inline-block;
+}
+.sub-child-8{
+    border: 2px solid white;
+
+    display: inline-block;
+}
+
+.img-1{
+height: 600px;
+width: 100%;
+}
+h2{
+    background-color:white;
+    padding: 10px;
+    position: absolute;
+    display:block;
+    bottom:380px;
+   margin-left: 700px;
+   
+    
+}
