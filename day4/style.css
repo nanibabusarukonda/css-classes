@@ -1,0 +1,75 @@
+body{
+    width: 1230px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 900px;
+    border: 3px solid white;
+    display: inline-block;
+    position: relative;
+    
+}
+.parent-1{
+    width: 100%;
+    height:300px ;
+    border: 5px solid white;
+    display: inline-block;
+}
+.parent-2{
+    width: 100%;
+    height: 300px;
+    border: 5px solid white;
+    display: inline-block;
+}
+ .parent-3{
+    height:100% ;
+    width: 300px;
+    border:5px solid white;
+    display: inline-block;
+}  
+.child{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    gap: 20px;
+}
+
+.child img{
+    height: 300px;
+    width: 310px;
+    position: absolute;
+   display: inline-block;
+   transition-delay: 3s;
+   align-items: center;
+   
+}
+.child p{
+    font-size: 3rem;
+    text-align: center; 
+    opacity: 0;
+    transition: all 3s ease;
+}
+.child:hover img{
+   display: none;
+}
+.child:hover p{
+    opacity:1;
+}
+
+.child-7{
+    top: -56px;
+}
+.child-8{
+    top: -56px;
+
+}
+.child-6{
+    top: -56px;
+}
+h1{
+    text-align: center;
+}
