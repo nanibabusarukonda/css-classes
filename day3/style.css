@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 840px;
+    border: 2px solid white;
+    height: 820px;
+   
+}
+.child-1{
+    height: 410px;
+    border: 2px solid white;
+}
+.child-2{
+ height: 405px;
+    border: 2px solid white;
+    
+}
+.sub-child-1{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+   
+}
+ .sub-child-2{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+.sub-child-3{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+}
+.sub-child-4{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: -17px;
+} 
+h5{
+    text-align: center;
+}
+h6{
+    text-align: center; 
+}
+img{
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+}
+.sub-child-5{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+   
+}
+ .sub-child-6{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+.sub-child-7{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+}
+.sub-child-8{
+    width: 200px;
+    height: 250px;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    top: -17px;
+}
