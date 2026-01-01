@@ -1,0 +1,53 @@
+
+body{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chessboard{
+            width: 400px;
+            height: 400px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            border: 5px solid black;
+        }
+
+        .square{
+            width: 50px;
+            height: 50px;
+        }
+
+        .square:nth-child(odd){
+            background: white;
+        }
+
+        .square:nth-child(even){
+            background: black;
+        }
+        .square:nth-child(16n+1),
+        .square:nth-child(16n+3),
+        .square:nth-child(16n+5),
+        .square:nth-child(16n+7),
+        .square:nth-child(16n+10),
+        .square:nth-child(16n+12),
+        .square:nth-child(16n+14),
+        .square:nth-child(16n+16){
+            background:goldenrod;
+        }
+
+        .square:nth-child(16n+2),
+        .square:nth-child(16n+4),
+        .square:nth-child(16n+6),
+        .square:nth-child(16n+8),
+        .square:nth-child(16n+9),
+        .square:nth-child(16n+11),
+        .square:nth-child(16n+13),
+        .square:nth-child(16n+15){
+            background:burlywood;
+        }
+        img{
+            height: 50px;
+            display: inline-block;
+            
+        }
